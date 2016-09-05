@@ -1,0 +1,374 @@
+/*------------------------------------*\
+    $BASE.css > Body & Html
+\*------------------------------------*/
+/*------------------------------------*\
+    > Body > Html
+\*------------------------------------*/
+html,
+body {
+  min-width: 320px;
+}
+
+body {
+  cursor: auto;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle; 
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+textarea {
+  height: auto;
+  min-height: 50px; }
+
+select {
+  width: 100%; }
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+
+/*------------------------------------*\
+    > texto > links
+\*------------------------------------*/
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+  cursor: pointer;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+[data-luma="claro"] hr{
+  border-top:1px solid #eee;
+}
+[data-luma="oscuro"] hr{
+  border-top:1px solid #5b5b5b;
+}
+
+h1 u, h2 u, h3 u, h4 u, h5 u, h6 u,
+.h1 u, .h2 u, .h3 u, .h4 u, .h5 u, .h6 u,
+h1 s, h2 s, h3 s, h4 s, h5 s, h6 s,
+.h1 s, .h2 s, .h3 s, .h4 s, .h5 s, .h6 s{
+  text-decoration:none;
+}
+
+
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+figure {
+  margin: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  /*margin-bottom: 18px;*/
+  padding-left:12px;/*test*/
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0px;
+}
+dl {
+  margin-top: 0;
+  /*margin-bottom: 18px;*/
+}
+dt,
+dd {
+  line-height: 1.42857143;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0;
+}
+
+/*------------------------------------*\
+    > blockquote
+\*------------------------------------*/
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eeeeee;
+}
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+  margin-bottom: 0;
+}
+blockquote footer,
+blockquote small,
+blockquote .small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #777777;
+}
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+  content: '\2014 \00A0';
+}
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+  text-align: right;
+}
+.blockquote-reverse footer:before,
+blockquote.pull-right footer:before,
+.blockquote-reverse small:before,
+blockquote.pull-right small:before,
+.blockquote-reverse .small:before,
+blockquote.pull-right .small:before {
+  content: '';
+}
+.blockquote-reverse footer:after,
+blockquote.pull-right footer:after,
+.blockquote-reverse small:after,
+blockquote.pull-right small:after,
+.blockquote-reverse .small:after,
+blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+address {
+  /*margin-bottom: 20px;*/
+  font-style: normal;
+  line-height: 1.42857143;
+}
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777777;
+  text-align: left;
+}
+
+
+/*------------------------------------*\
+    > Tamaños de fuentes
+\*------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: normal;
+  color: inherit;
+  margin-top:0px;
+}
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 65%;
+}
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+  font-size: 75%;
+}
+
+.lead {
+  font-size: 1.313em;
+  line-height: 1.11111111;
+}
+@media (min-width: 43.75em) {
+  .lead {
+    font-size: 1.313em;
+    line-height: 1.2;
+  }
+}
+
+
+small,
+.small {
+  font-size: 85%;
+}
+mark,
+.mark {
+  background-color: #fcf8e3;
+  padding: .2em;
+  display: inline-block;
+}

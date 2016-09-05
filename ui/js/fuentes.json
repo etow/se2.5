@@ -1,0 +1,238 @@
+{
+        "Abril_Fatface": [
+          "",
+          "font-family: 'Abril Fatface', cursive;"
+        ],
+        "Andika":[
+          "",
+          "font-family: 'Andika', sans-serif;"
+        ],
+        "Amaranth":[
+          "400,400italic,700,700italic",
+          "font-family:'Amaranth',sans-serif;"
+        ],
+        "Amatic_SC":[
+          "400,700",
+          "font-family: 'Amatic SC', cursive;"
+        ],
+        "Archivo_Narrow":[
+          "400,400italic,700,700italic",
+          "font-family: 'Archivo Narrow', sans-serif;"
+        ],
+        "Arvo":[
+          "400,400italic,700,700italic",
+          "font-family: 'Arvo', serif;"
+        ],
+        "Bevan":[
+          "",
+          "font-family: 'Bevan', cursive;"
+        ],
+        "Bitter":[
+          "400,400italic,700",
+          "font-family: 'Bitter', serif;"
+        ],
+        "Bree_Serif":[
+          "",
+          "font-family: 'Bree Serif', serif;"
+        ],
+        "Buda":[
+          "300",
+          "font-family: 'Buda', cursive;"
+        ],
+        "Cardo":[
+          "400,400italic,700",
+          "font-family: 'Cardo', serif;"
+        ],
+        "Cabin_Sketch":[
+          "400,700",
+          "font-family: 'Cabin Sketch', cursive;"
+        ],
+        "Cabin":[
+          "400,400italic,700,700italic",
+          "font-family: 'Cabin', sans-serif;"
+        ],
+        "Chewy":[
+          "",
+          "font-family: 'Chewy', cursive;"
+        ],
+        "Copse":[
+          "",
+          "font-family: 'Copse', serif;"
+        ],
+        "Dancing_Script":[
+          "400,700",
+          "font-family: 'Dancing Script', cursive;"
+        ],
+        "Didact_Gothic":[
+          "",
+          "font-family: 'Didact Gothic', sans-serif;"
+        ],
+        "Dosis":[
+          "400,300,700",
+          "font-family: 'Dosis', sans-serif;"
+        ],
+        "EB_Garamond":[
+          "",
+          "font-family: 'EB Garamond', serif;"
+        ],
+        "Great_Vibes":[
+          "",
+          "font-family: 'Great Vibes', cursive;"
+        ],
+        "Fauna_One":[
+          "",
+          "font-family: 'Fauna One', serif;"
+        ],
+        "Fjalla_One":[
+          "",
+          "font-family: 'Fjalla One', sans-serif;"
+        ],
+        "Flamenco":[
+          "",
+          "font-family: 'Flamenco', cursive;"
+        ],
+        "Hind":[
+          "400,700",
+          "font-family: 'Hind', sans-serif;"
+        ],
+        "Istok_Web":[
+          "400,700,400italic,700italic",
+          "font-family: 'Istok Web', sans-serif;"
+        ],
+        "Josefin_Sans":[
+          "400,300,600,700,400italic,300italic,700italic",
+          "font-family: 'Josefin Sans', sans-serif;"
+        ],
+        "Lato":[
+          "400,300,700,400italic,700italic,300italic",
+          "font-family: 'Lato', sans-serif;"
+        ],
+        "Ledger":[
+          "",
+          "font-family: 'Ledger', serif;"
+        ],
+        "Libre_Baskerville":[
+          "400,400italic,700",
+          "font-family: 'Libre Baskerville', serif;"
+        ],
+        "Lobster_Two":[
+          "400,700,400italic,700italic",
+          "font-family: 'Lobster Two', cursive;"
+        ],
+        "Lora":[
+          "400,400italic,700,700italic",
+          "font-family: 'Lora', serif;"
+        ],
+        "Molengo":[
+          "",
+          "font-family: 'Molengo', sans-serif;"
+        ],
+        "Montserrat":[
+          "400,700",
+          "font-family: 'Montserrat', sans-serif;"
+        ],
+        "Muli":[
+          "400,300,300italic,400italic",
+          "font-family: 'Muli', sans-serif;"
+        ],
+        "Nixie_One":[
+          "",
+          "font-family: 'Nixie One', cursive;"
+        ],
+        "Nunito":[
+          "400,300,700",
+          "font-family: 'Nunito', sans-serif;"
+        ],
+        "Old_Standard_TT":[
+          "400,400italic,700",
+          "font-family: 'Old Standard TT', serif;"
+        ],
+        "Open_Sans":[
+          "400,300italic,700,700italic",
+          "font-family: 'Open Sans', sans-serif;"
+        ],
+        "Oswald":[
+          "400,300,700",
+          "font-family: 'Oswald', sans-serif;"
+        ],
+        "Oxygen":[
+          "400,700,300",
+          "font-family: 'Oxygen', sans-serif;"
+        ],
+        "Pacifico":[
+          "",
+          "font-family: 'Pacifico', cursive;"
+        ],
+        "Parisienne":[
+          "",
+          "font-family: 'Parisienne', cursive;"
+        ],
+        "Patua_One":[
+          "",
+          "font-family: 'Patua One', cursive;"
+        ],
+        "Pontano_Sans":[
+          "",
+          "font-family: 'Pontano Sans', sans-serif;"
+        ],
+        "Paytone_One":[
+          "",
+          "font-family: 'Paytone One', sans-serif;"
+        ],
+        "Philosopher":[
+          "400,700,400italic,700italic",
+          "font-family: 'Philosopher', sans-serif;"
+        ],
+        "Playfair_Display":[
+          "400,400italic,700,700italic",
+          "font-family: 'Playfair Display', serif;"
+        ],
+        "PT_Sans":[
+          "400,400italic,700,700italic",
+          "font-family: 'PT Sans', sans-serif;"
+        ],
+        "Quattrocento":[
+          "400,700",
+          "font-family: 'Quattrocento', serif;"
+        ],
+        "Quicksand":[
+          "400,300,700",
+          "font-family: 'Quicksand', sans-serif;"
+        ],
+        "Raleway":[
+          "400,300,300italic,400italic,700,700italic",
+          "font-family: 'Raleway', sans-serif;"
+        ],
+        "Roboto":[
+          "400,300italic,300,400italic,700,700italic",
+          "font-family: 'Roboto', sans-serif;"
+        ],
+        "Roboto_Slab":[
+          "400,700,300",
+          "font-family: 'Roboto Slab', serif;"
+        ],
+        "Rokkitt":[
+          "400,700",
+          "font-family: 'Rokkitt', serif;"
+        ],
+        "Source_Sans_Pro":[
+          "400,400italic,700,700italic",
+          "font-family: 'Source Sans Pro', sans-serif;"
+        ],
+        "Titillium_Web":[
+          "400,300,300italic,400italic,700,700italic",
+          "font-family: 'Titillium Web', sans-serif;"
+        ],
+        "Ubuntu":[
+          "400,300,300italic,400italic,700,700italic",
+          "font-family: 'Ubuntu Condensed', sans-serif;"
+        ],
+        "Varela_Round":[
+          "",
+          "font-family: 'Varela Round', sans-serif;"
+        ],
+        "Vollkorn":[
+          "400,400italic,700,700italic",
+          "font-family: 'Vollkorn', serif;"
+        ]
+}

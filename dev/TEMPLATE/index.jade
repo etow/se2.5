@@ -1,0 +1,90 @@
+include mixin
+doctype html
+<!--[if IE 9]>
+html.no-js.lt-ie10(lang='en')
+<![endif]-->
+<!--[if gt IE 9]><!-->
+html.no-js(lang='en')<!--<![endif]-->
+  head
+    meta(charset='iso-8859-1')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
+    +head
+    +links
+    +link_color 
+    script(src='#URL_PREFIX#template/shiv/modernizr.flexbox.js')
+
+  body
+    .SeFrame
+      <!--[if lt IE 9]>
+      #continuarSinActualizarDiv(style='position:absolute;z-index:999;height:100%;width:100%;left:0;top:0;background-color:#000;text-align:center;vertical-align:middle')
+        table(width='600', border='0', style='margin:40px auto')
+          tr
+            td
+              .panel(style='text-align:center')
+                h2
+                  br
+                  br
+                  | Estas usando una version antigua de Internet Explorer.
+                  br
+                h4  Es posible que el sitio no se visualice correctamente
+                br
+                a.btn.btn-success(href='http://browsehappy.com/') Actualizar
+                br
+                br
+                a#continuarSinActualizar.btn.btn-link.btn-xs Continuar sin Actualizar
+      <![endif]-->
+
+      div.SeConfig.background-se(data-header-type='1', data-menu-type='1', data-sticky='1', data-accent="1", data-luma="claro",data-offcanvas="oscuro", data-submenu-color="oscuro", data-header-color="3")
+        aside.MenuMobile
+          .MenuMobile-close
+            i.fa.fa-close
+          +menuSuperior
+        .SiteWrapper
+          .SiteMask
+          .SiteContent
+            header.Header
+              .Section.Section--secciones
+                .estructura.u-boxedWidth
+                  .seCol.seCol_1.seo-no-visible-secciones
+                    nav#secciones
+                      +menuSeccion
+              // /secciones
+              .Section.Section--logoAndMenu
+                .estructura.u-boxedWidth
+                  .colSe.colSe_1
+                    .LogoAndMenu
+                      a.MainLogo.u-imgLink(href='#LINK_WEB_SITE')
+                        +logo  
+                      nav.MainMenuContainer.seo-no-visible-principal
+                        +menuSuperior
+                        | #CARRITO
+                      a.RsMenuButton.seo-no-visible-principal(href='')
+                        i.RsMenuButton-icon.fa.fa-bars
+                          span.RsMenuButton-text Men&uacute;
+                      
+
+              span.StickyHelper
+              // /logoAndMenu
+
+            .ZonasEditables 
+              +zonaSup
+
+            section.Section.Section--contenido(class='tipo_pagina_#ID_TIPO_PAGINA')  
+              +texto
+
+            .ZonasEditables 
+              +zonaInf
+            // FOOTER
+            footer.Footer
+              | #FOOTER
+
+      <!--[if lt IE 9]>
+      script(src='#URL_PREFIX#template/shiv/bugfixie.js')
+      script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+      script(src='#URL_PREFIX#template/shiv/nwmatcher-1.2.5.js')
+      script(src='#URL_PREFIX#template/shiv/selectivizr-min.js')
+      script(src='#URL_PREFIX#template/shiv/respond.min.js')
+      <![endif]-->
+      // Sitio Express
+      script(type='text/javascript', src='#URL_PREFIX#template/template.js')
+      +script

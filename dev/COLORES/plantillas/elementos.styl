@@ -1,0 +1,199 @@
+/*------------------------------------*\
+    $WIDGET ICONO
+\*------------------------------------*/
+  [data-accent="1"] .Widget_Icono{
+    color:icono1;
+  }
+  [data-accent="2"] .Widget_Icono{
+    color:icono2;
+  }
+
+/*------------------------------------*\
+    $CALL TO ACTION
+\*------------------------------------*/
+
+  .SeConfig[data-luma="claro"] .LayoutCallToAction{
+    background:callBack1;
+    color:textForCallBack1;
+  }
+  
+  .SeConfig[data-luma="oscuro"] .LayoutCallToAction{
+    background:callBack2;
+    color:textForCallBack2;
+  }
+  
+  .SeConfig[data-luma="claro"] [data-luma="claro"].LayoutCallToAction,
+  .SeConfig[data-luma="oscuro"] [data-luma="claro"].LayoutCallToAction{
+    color:primario;
+  }
+  
+  .SeConfig[data-luma="claro"] [data-luma="oscuro"].LayoutCallToAction,
+  .SeConfig[data-luma="oscuro"] [data-luma="oscuro"].LayoutCallToAction{
+    color:claro;
+  }
+
+/*------------------------------------*\
+    $SEPARADOR
+\*------------------------------------*/
+  [data-accent="1"] .separador.default{
+    border-bottom:2px solid acento1;
+  }
+  [data-accent="2"] .separador.default{
+    border-bottom:2px solid acento2;
+  }
+
+  [data-accent="1"] .separador.s1{
+    border-bottom:2px dotted acento1;
+  }
+  [data-accent="2"] .separador.s1{
+    border-bottom:2px dotted acento2;
+  }
+
+/*------------------------------------*\
+    $TEMPATE MISC
+\*------------------------------------*/
+
+[data-luma="claro"] .LayoutFooter{
+  background-color:footerBack1;
+  color:textForFooterBack1;
+}
+
+[data-luma="oscuro"] .LayoutFooter{
+  background-color:footerBack2;
+  color:textForFooterBack2;
+}
+
+[data-luma="claro"] .LayoutFooterFinal{
+  background-color:powered1;
+  color:textForPowered1
+}
+[data-luma="oscuro"] .LayoutFooterFinal{
+  background-color:powered2;
+  color:textForPowered2;
+}
+
+
+/*----------------------------------*\
+      $FORM TRANSPARENTE
+\*-----------------------------------*/
+.FormTransparente input,
+.FormTransparente select,
+.FormTransparente textarea{
+  background-color:transparent;
+}
+.FormTransparente input[type="submit"]{
+  background:transparent;
+}
+
+.grilla[data-luma="claro"] .FormTransparente input,
+.grilla[data-luma="claro"] .FormTransparente select,
+.grilla[data-luma="claro"] .FormTransparente textarea{
+  border:2px solid oscuro;
+  color: oscuro!important;
+}
+.grilla[data-luma="oscuro"] .FormTransparente input,
+.grilla[data-luma="oscuro"] .FormTransparente select,
+.grilla[data-luma="oscuro"] .FormTransparente textarea{
+  border:2px solid claro;
+  color:claro!important;
+}
+
+.grilla[data-luma="claro"] .FormTransparente input:focus,
+.grilla[data-luma="claro"] .FormTransparente select:focus,
+.grilla[data-luma="claro"] .FormTransparente textarea:focus{
+  background-color:rgba(claro, .3);
+}
+
+.grilla[data-luma="oscuro"] .FormTransparente input:focus,
+.grilla[data-luma="oscuro"] .FormTransparente select:focus,
+.grilla[data-luma="oscuro"] .FormTransparente textarea:focus{
+  background-color:rgba(oscuro, .3);
+}
+
+
+/*------------------------------------*\
+    $HOVER IMGS
+\*------------------------------------*/
+[data-accent="1"] .HoverImg[data-HoverImg_skin='10']:hover .HoverImg-img {
+  border-color:acento1;
+}
+[data-accent="2"] .HoverImg[data-HoverImg_skin='10']:hover .HoverImg-img {
+  border-color:acento2;
+}
+
+[data-accent="1"] .HoverImg[data-HoverImg_skin='6'] .HoverImg-info:before{
+  background: acento1;
+}
+[data-accent="2"] .HoverImg[data-HoverImg_skin='6'] .HoverImg-info:before {
+  background:acento2;
+}
+
+
+
+
+/*------------------------------------*\
+    $CARRITO
+\*------------------------------------*/
+
+[data-luma="claro"] .MiniCart{
+  background-color:claro;
+}
+[data-luma="oscuro"] .MiniCart {
+  background-color:oscuro;
+}
+
+
+[data-luma="claro"] .MiniCart-header{
+  background-color:seccionBack1;
+  color:textForSeccionBack1;
+}
+[data-luma="oscuro"] .MiniCart-header {
+  background-color:seccionBack2;
+  color:textForSeccionBack2;
+}
+
+[data-accent="1"] .MiniCart-toggler{
+  color:acento1!important;
+}
+[data-accent="2"] .MiniCart-toggler{
+  color:acento2!important;
+}
+
+[data-luma="claro"] .MiniCart-badge{
+  background-color:rgba(primario,.6);
+  color:claro;
+}
+[data-luma="oscuro"] .MiniCart-badge{
+  background-color:rgba(claro,.6);
+  color:primario;
+}
+
+/*----------------------------------*\
+      $LOOP DE PRODUCTOS
+\*-----------------------------------*/
+/*.SeConfig[data-luma="claro"] .Loop-imagen{
+  background-color:claro;
+}
+.SeConfig[data-luma="oscuro"] .Loop-imagen{
+  background-color:oscuro;
+}*/
+
+/*----------------------------------*\
+      $CATEGORIAS
+\*-----------------------------------*/
+[data-luma="claro"] .CategoriasModulo li a,
+[data-luma="claro"] .CategoriasModulo li a:visited{
+    color:primario;
+}
+
+[data-luma="oscuro"] .CategoriasModulo li a,
+[data-luma="oscuro"] .CategoriasModulo li a:visited{
+    color:claro;
+}
+  
+[data-accent="1"] .CategoriasModulo li a:hover{
+  color:acento1;
+}
+[data-accent="1"] .CategoriasModulo li a:hover{
+  color:acento2;
+}

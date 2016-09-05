@@ -1,0 +1,52 @@
+/*------------------------------------*\
+    $SEPARADOR.css 
+\*------------------------------------*/
+.separador{
+  margin-bottom:1em;
+  height:1.6em;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  width:100%;
+}
+.separador.default{
+  height:1.3em;
+  border-bottom:2px solid #ccc;
+}
+.separador.s1{
+  height:1.3em;
+  border-bottom:2px dotted #ccc;
+}
+.separador.s2{
+  background-image: url("http://replace.com/s2.png");
+}
+.separador.s3{
+  background-image: url("http://replace.com/s3.png");
+}
+.separador.s4{
+  background-image: url("http://replace.com/s4.png");
+}
+.separador.s5{
+  background-image: url("http://replace.com/s5.png");
+}
+.separador.s6{
+  background-image: url("http://replace.com/s6.png");
+}
+.separador.s7{
+  background-image: url("http://replace.com/s7.png");
+  background-repeat: repeat-x;
+}
+.separador.s8{
+  background-image: url("http://replace.com/s8.png");
+  background-repeat: repeat-x;
+}
+.separador.s9{
+  background-image: url("http://replace.com/s9.png");
+  background-repeat: repeat-x;
+}
+.separador.s10{
+  background-image: url("http://replace.com/s10.png");
+  height: 2.5em;
+}
+.separador.s11{
+  background-image: url("http://replace.com/s11.png");
+}

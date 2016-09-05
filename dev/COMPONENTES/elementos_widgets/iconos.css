@@ -1,0 +1,28 @@
+.Widget_IngresarImagen{
+  max-width: 100%;
+}
+
+.widgetIconoContenedor{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  box-sizing:content-box;
+}
+.widgetIconoContenedor .fa-1x{
+  width: 16px;
+}
+.widgetIconoContenedor .fa-2x{
+  width: 32px;
+}
+.widgetIconoContenedor .fa-3x{
+  width: 48px;
+}
+.widgetIconoContenedor .fa-4x{
+  width: 64px;
+}
+.widgetIconoContenedor .fa-5x{
+  width: 80px;
+}
+.Widget_Icono[data-class_forma="icon_circulo"] .widgetIconoContenedor{
+  border-radius: 100%;
+}

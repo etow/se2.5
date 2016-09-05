@@ -1,0 +1,40 @@
+
+
+
+
+/*
+.no-flexbox .RsMenuButton-text{
+  display:none;
+}
+
+.no-flexbox .LogoAndMenu{
+	text-align: justify;
+	height:85px;
+}
+.no-flexbox .LogoAndMenu:after{
+	content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 64.0000em) {
+	.no-flexbox [data-h-skin="1"] .MainLogo,
+	.no-flexbox [data-h-skin="1"] .MainLogo:before,
+	.no-flexbox [data-h-skin="1"] .MainMenuContainer,
+	.no-flexbox [data-h-skin="1"] .MainMenu,
+	.no-flexbox [data-h-skin="1"] .MainMenu-item{
+		display: inline-block;
+		vertical-align: middle;
+		text-align: left;
+		height:100%;
+	}
+	.no-flexbox [data-h-skin="1"] .MainLogo{
+		height:100%;
+	}
+	.no-flexbox [data-h-skin="1"] .MainLogo:before{
+		content:'';
+		height:100%;
+	}
+}
+
+*/

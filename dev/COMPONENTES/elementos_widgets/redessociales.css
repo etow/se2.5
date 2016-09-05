@@ -1,0 +1,150 @@
+.WidgetRedesSociales-1 a,
+.WidgetRedesSociales-2 a,
+.WidgetRedesSociales-3 a,
+.WidgetRedesSociales-4 a,
+.WidgetRedesSociales-5 a,
+.WidgetRedesSociales-6 a{
+	display:inline-block;
+	width:48px;
+	height:48px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*******1*******/
+.WidgetRedesSociales-1 a{
+	width:42px;
+	height:42px;
+	margin-right:3px;
+	margin-left:3px;
+}
+.WidgetRedesSociales-1 a.WRS-facebook{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/1/facebook.png');
+}
+.WidgetRedesSociales-1 a.WRS-twitter{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/1/twitter.png');
+}
+.WidgetRedesSociales-1 a.WRS-instagram{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/1/instagram.png');
+}
+.WidgetRedesSociales-1 a.WRS-linkedin{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/1/linkedin.png');
+}
+.WidgetRedesSociales-1 a.WRS-pinterest{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/1/pinterest.png');
+}
+.WidgetRedesSociales-1 a.WRS-google{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/1/google.png');
+}
+
+/*******2*******/
+.WidgetRedesSociales-2 a.WRS-facebook{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/2/facebook.png');
+}
+.WidgetRedesSociales-2 a.WRS-twitter{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/2/twitter.png');
+}
+.WidgetRedesSociales-2 a.WRS-instagram{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/2/instagram.png');
+}
+.WidgetRedesSociales-2 a.WRS-linkedin{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/2/linkedin.png');
+}
+.WidgetRedesSociales-2 a.WRS-pinterest{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/2/pinterest.png');
+}
+.WidgetRedesSociales-2 a.WRS-google{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/2/google.png');
+}
+
+/*******3*******/
+.WidgetRedesSociales-3 a.WRS-facebook{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/3/facebook.png');
+}
+.WidgetRedesSociales-3 a.WRS-twitter{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/3/twitter.png');
+}
+.WidgetRedesSociales-3 a.WRS-instagram{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/3/instagram.png');
+}
+.WidgetRedesSociales-3 a.WRS-linkedin{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/3/linkedin.png');
+}
+.WidgetRedesSociales-3 a.WRS-pinterest{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/3/pinterest.png');
+}
+.WidgetRedesSociales-3 a.WRS-google{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/3/google.png');
+}
+
+/*******4*******/
+.WidgetRedesSociales-4 a.WRS-facebook{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/4/facebook.png');
+}
+.WidgetRedesSociales-4 a.WRS-twitter{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/4/twitter.png');
+}
+.WidgetRedesSociales-4 a.WRS-instagram{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/4/instagram.png');
+}
+.WidgetRedesSociales-4 a.WRS-linkedin{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/4/linkedin.png');
+}
+.WidgetRedesSociales-4 a.WRS-pinterest{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/4/pinterest.png');
+}
+.WidgetRedesSociales-4 a.WRS-google{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/4/google.png');
+}
+
+/*******5*******/
+.WidgetRedesSociales-5 a.WRS-facebook{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/5/facebook.png');
+}
+.WidgetRedesSociales-5 a.WRS-twitter{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/5/twitter.png');
+}
+.WidgetRedesSociales-5 a.WRS-instagram{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/5/instagram.png');
+}
+.WidgetRedesSociales-5 a.WRS-linkedin{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/5/linkedin.png');
+}
+.WidgetRedesSociales-5 a.WRS-pinterest{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/5/pinterest.png');
+}
+.WidgetRedesSociales-5 a.WRS-google{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/5/google.png');
+}
+
+/*******6*******/
+.WidgetRedesSociales-6 a.WRS-facebook{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/6/facebook.png');
+}
+.WidgetRedesSociales-6 a.WRS-twitter{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/6/twitter.png');
+}
+.WidgetRedesSociales-6 a.WRS-instagram{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/6/instagram.png');
+}
+.WidgetRedesSociales-6 a.WRS-linkedin{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/6/linkedin.png');
+}
+.WidgetRedesSociales-6 a.WRS-pinterest{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/6/pinterest.png');
+}
+.WidgetRedesSociales-6 a.WRS-google{
+	background-image:url('http://app.misaplicaciones.com/9/recursos/RedesSociales/6/google.png');
+}
+
+.RedesSmall a{
+	width:24px;
+	height:24px;
+}
+.RedesXSmall a{
+	width:16px;
+	height:16px;
+}
+.RedesLarge a{
+	width:64px;
+	height:64px;
+}

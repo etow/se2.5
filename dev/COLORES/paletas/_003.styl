@@ -1,0 +1,87 @@
+/* VARIABLES DE COLOR */
+primario = #31384d
+claro = #fafbfc
+claro = #ffffff
+oscuro = #1a1e2d
+acento1 = #3bc2df
+acento2 = #564dad
+callTo1 = #f35790
+
+claroDarken = shade(darken(claro, 3),25%)
+
+if !oscuro
+  oscuro = shade(darken(primario, 3),5%)
+  
+oscurox2 = shade(darken(oscuro, 3),20%)
+oscurox3 = shade(darken(oscuro, 3),40%)
+oscurox4 = shade(darken(oscuro, 3),70%)
+oscurox5 = shade(darken(oscuro, 5),70%)
+oscurox6 = shade(darken(oscuro, 5),80%)
+oscurox7 = shade(darken(oscuro, 5),90%)
+
+/* ELEMENTOS BASE */
+backClaro = claro
+backOscuro = oscurox3
+
+secundario = acento2
+
+
+link = secundario
+link_lighten = tint(lighten(spin(link, -3deg),10),18)
+
+linkFooter = secundario
+linkFooter_lighten = tint(lighten(spin(linkFooter, -3deg),10),18)
+
+titulosOscuro = oscuro
+titulosClaro = claro
+
+textosOscuro = primario
+textosClaro = claro
+
+resaltado1 = acento1
+resaltado2 = acento2
+
+icono1 = acento1
+icono2 = acento2
+
+
+/*TEXTOS CON FONDO ACENTO */
+textForBackA1 = claro
+textForBackA2 = submenuA1
+
+/* CALL TO ACTION */
+callBack1 = callTo1 					
+textForCallBack1 = claro
+callBack2 = callTo1 
+textForCallBack2 = claro
+
+/* MENUES */
+submenuBack1 = primario				
+textForSubmenuBack1 = claro
+submenuBack2 = claro
+textForSubmenuBack2 = primario	
+
+/* menues text */
+textForSubmenuA1 = claro
+textForSubmenuA2 = claro
+textForSubmenuClaro = primario;
+textForSubmenuOscuro = claro
+
+/* SECCIONES */
+seccionBack1 = oscurox2
+textForSeccionBack1 = claro
+seccionBack2 = oscuro
+textForSeccionBack2 = claro
+textForSeccionActive = acento1
+
+/* FOOTER */
+footerBack1 = oscuro
+textForFooterBack1 = claro
+footerBack2 = oscuro
+textForFooterBack2 = claro
+
+/* POWERED BY */
+powered1 = oscurox2
+textForPowered1 = claro
+powered2 = oscurox2
+textForPowered2 = claro

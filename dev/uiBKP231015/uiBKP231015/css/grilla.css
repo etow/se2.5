@@ -1,0 +1,204 @@
+/*------------------------------------*\
+    $GRILLA Y ESTRUCTURA
+\*------------------------------------*/
+.estructura {
+  margin: 0 auto;/*
+  max-width: 75em;*/
+  width: 100%; }
+  .estructura:before, .estructura:after {
+    content: " ";
+    display: table; }
+  .estructura:after {
+    clear: both; }
+  .estructura.collapse > .colSe {
+    padding-left: 0;
+    padding-right: 0; }
+  .estructura.collapse .estructura {
+    margin-left: 0;
+    margin-right: 0; }
+  .estructura .estructura {
+    margin: 0 -0.9375em;
+    max-width: none;
+    width: auto; }
+    .estructura .estructura:before, .estructura .estructura:after {
+      content: " ";
+      display: table; }
+    .estructura .estructura:after {
+      clear: both; }
+    .estructura .estructura.collapse {
+      margin: 0;
+      max-width: none;
+      width: auto; }
+      .estructura .estructura.collapse:before, .estructura .estructura.collapse:after {
+        content: " ";
+        display: table; }
+      .estructura .estructura.collapse:after {
+        clear: both; }
+
+.colSe {
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }
+
+.colSe + .colSe:last-child {
+  float: right; }
+
+.colSe + .colSe.end {
+  float: left; }
+
+.u-fullWidth{
+  width:100%;
+}
+
+.estructura.u-fullWidth.collapse > .colSe{
+ padding-left:0;
+ padding-right:0;
+}
+
+.u-boxedWidth{
+  
+}
+.estructura.u-boxedWidth{
+  width:100%;
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 64.0000em) {
+.colSe_1{
+  width:100%;
+}
+.colSe_1_2{
+  width:50%;
+}
+.colSe_1_3{
+  width:33.3333%;
+}
+.colSe_2_3{
+  width:66.3333%;
+}
+.colSe_1_4{
+  width:25%;
+}
+.colSe_3_4{
+  width:75%;
+}
+.colSe_1_5{
+  width:20%;
+}
+.colSe_1_6{
+  width:16.6666%;
+}
+}
+
+[class*="blockGrid-"] {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625rem; }
+  [class*="blockGrid-"]:before, [class*="blockGrid-"]:after {
+    content: " ";
+    display: table; }
+  [class*="blockGrid-"]:after {
+    clear: both; }
+  [class*="blockGrid-"] > li {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0 0.625rem 1.25rem;}
+
+
+[class*="blockGrid-"] > li {
+    list-style: none;
+    width: 50%; }
+  [class*="blockGrid-"] > li:nth-of-type(1n) {
+    clear: none; }
+  [class*="blockGrid-"] > li:nth-of-type(2n+1) {
+    clear: both; }
+
+@media only screen and (min-width: 48.000em) and (max-width: 63.938em) {
+  [class*="blockGrid-"] > li {
+    list-style: none;
+    width: 25%; }
+  [class*="blockGrid-"] > li:nth-of-type(1n) {
+    clear: none; }
+  [class*="blockGrid-"] > li:nth-of-type(4n+1) {
+    clear: both; }
+}
+
+@media only screen and (min-width: 64.0000em) {
+.blockGrid-1 > li {
+  list-style: none;
+  width: 100%; }
+.blockGrid-1 > li:nth-of-type(1n) {
+  clear: none; }
+.blockGrid-1 > li:nth-of-type(1n+1) {
+  clear: both; }
+
+.blockGrid-2 > li {
+  list-style: none;
+  width: 50%; }
+.blockGrid-2 > li:nth-of-type(1n) {
+  clear: none; }
+.blockGrid-2 > li:nth-of-type(2n+1) {
+  clear: both; }
+
+.blockGrid-3 > li {
+  list-style: none;
+  width: 33.33333%; }
+.blockGrid-3 > li:nth-of-type(1n) {
+  clear: none; }
+.blockGrid-3 > li:nth-of-type(3n+1) {
+  clear: both; }
+
+.blockGrid-4 > li {
+  list-style: none;
+  width: 25%; }
+.blockGrid-4 > li:nth-of-type(1n) {
+  clear: none; }
+.blockGrid-4 > li:nth-of-type(4n+1) {
+  clear: both; }
+
+.blockGrid-5 > li {
+  list-style: none;
+  width: 20%; }
+.blockGrid-5 > li:nth-of-type(1n) {
+  clear: none; }
+.blockGrid-5 > li:nth-of-type(5n+1) {
+  clear: both; }
+
+.blockGrid-6 > li {
+  list-style: none;
+  width: 16.66667%; }
+.blockGrid-6 > li:nth-of-type(1n) {
+  clear: none; }
+.blockGrid-6 > li:nth-of-type(6n+1) {
+  clear: both; }
+
+.blockGrid-7 > li {
+  list-style: none;
+  width: 14.28571%; }
+.blockGrid-7 > li:nth-of-type(1n) {
+  clear: none; }
+.blockGrid-7 > li:nth-of-type(7n+1) {
+  clear: both; }
+
+.blockGrid-8 > li {
+  list-style: none;
+  width: 12.5%; }
+.blockGrid-8 > li:nth-of-type(1n) {
+  clear: none; }
+.blockGrid-8 > li:nth-of-type(8n+1) {
+  clear: both; }
+
+}
+
+.demoCallOut{
+    padding:20px;
+    background:#dfdfdf;
+    text-align: center
+}
+.contentWrapper{
+  position:relative;
+}

@@ -1,0 +1,14 @@
+.cantidadResultados{
+	max-width: 75em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#tablaGaleria {
+    display: block;
+    width: 100%;
+    max-width: 75em;
+    margin: 0 auto;
+}

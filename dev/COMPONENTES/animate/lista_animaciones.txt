@@ -1,0 +1,45 @@
+Si tiene animación, agregar a la grilla:
+class="u-animate" data-animate="NOMBRE_DE_LA_ANIMACION"
+
+# NOMBRES DE ANIMACIONES DISPONIBLES:
+# BOUNCE
+bounceIn
+bounceInLeft
+bounceInRight
+
+#FADE
+fadeIn
+fadeInLeft
+fadeInRight
+fadeInUp
+fadeInDown
+
+#FLIP
+flipInX
+flipInY
+
+#ZOOM
+zoomIn
+
+#ALERTS
+bounce
+pulse
+shake
+tada
+rubberBand 
+
+#MIXTOS
+perspectiveDownRetourn
+perspectiveLeftRetourn
+perspectiveRightRetourn
+perspectiveUpRetourn
+puffIn
+swap
+swashIn
+tinRightIn
+tinLeftIn
+tinUpIn
+boingInUp
+spaceInRight
+paceInDown
+spaceInLeft

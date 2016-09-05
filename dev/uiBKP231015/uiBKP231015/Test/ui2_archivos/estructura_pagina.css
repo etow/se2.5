@@ -1,0 +1,48 @@
+/* CSS Document */
+.estructuraPagina.Entera{}
+
+.estructuraPagina.BarraIzquierda{}
+
+.estructuraBarraDerecha{}
+
+.estructuraPagina > div{
+	vertical-align:top;
+	display:inline-block;
+}
+
+.estructuraPagina.BarraDerecha > div.estructuraPagina-Texto, .estructuraPagina.BarraIzquierda > div.estructuraPagina-Texto{
+	width:74%;
+}
+
+.estructuraPagina.BarraIzquierdaYDerecha > div.estructuraPagina-Texto{
+	width:48%;
+}
+
+.estructuraPagina > div.estructuraPagina-Derecha{
+	width:24%;
+	float:right;
+	margin-left:1%
+}
+.estructuraPagina > div.estructuraPagina-Izquierda{
+	width:24%;
+	float:left;
+	margin-right:2%
+}
+
+
+.estructuraPagina > div.estructuraPagina-Izquierda img,  .estructuraPagina > div.estructuraPagina-Derecha img{
+max-width: 100%;
+height: auto;
+}
+
+.estructuraPagina.BarraIzquierdaYDerecha{}
+
+@media screen and (max-width: 720px){
+	.estructuraPagina > div {
+		width:100% !important;
+		display:block !important;
+		float:none !important;
+		margin:0 0 2em !important;
+	}
+	
+}

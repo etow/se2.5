@@ -1,0 +1,107 @@
+/*------------------------------------*\
+    $TEMPLATE
+\*------------------------------------*/
+body{
+	overflow-x:hidden;
+}
+.MainLogo{
+	font-size:1.8em;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+}
+.SeConfig{
+	position:relative;
+}
+/*-- $CONTENEDORES --*/
+.SiteWrapper{
+	position: relative;
+	z-index: 1;
+	top:0;
+	left:0;
+	min-height: 100vh;
+	transition: all 1000ms ease-in-out;}
+	.SiteWrapper.is-open{
+		transform:translateX(240px);}
+.SiteMask{
+	position: absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background:rgba(0,0,0,.5);
+	z-index: 0;
+	transition: all 300ms;
+	opacity:0;}
+	.SiteMask.fadeIn{
+		z-index:9999;
+		opacity:1;}	
+.SiteContent{
+	position: relative;
+	z-index:1;
+	min-height: 100vh;}	
+
+/*-- $SECCIONES --*/
+.Section{
+	width:100%;}
+.Section--logoAndMenu{
+	z-index: 300;
+}
+	/*@media only screen and (max-width: 63.938em) {*/
+	.Section--logoAndMenu{/*-- EN TABLETS --*/
+		-webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+		box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);}
+	/*}*/
+
+.Section--footer{
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+/*-- $CABECERA --*/
+#cabecera{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+       background-size: cover;}
+
+/*-- $FOOTER --*/
+.Footer-title{
+	font-size:14px;}
+.FooterList{
+	padding:0;
+	margin:0;
+	list-style:none;}
+
+/*------------------------------------*\
+    $FLEXIFY TEMPLATE
+\*------------------------------------*/
+.flexbox .MenuFooter .MainMenu{
+	display:flex;}
+
+.flexbox .SiteContent, 
+.flexbox .Header{
+	display:flex;
+	flex-direction:column;}
+
+.flexbox .Section--contenido{
+	flex-grow:1;
+	z-index: 0;
+}
+
+.flexbox .Footer{
+	display: block;
+}
+
+.StickyHelper{
+	width:100%;
+	display:block;
+}
+
+

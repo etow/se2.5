@@ -1,0 +1,35 @@
+mixin menuSuperior
+  ul#MenuPrincipal.MenuPrincipal.MainMenu
+    li.MainMenu-item
+      a.select.is-active.MainMenu-link(href='')
+        span.MainMenu-text Quienes Somos
+      ul
+        li.MainMenu-item
+          a.MainMenu-link(href='')
+            span.MainMenu-text Test de Contenidos
+        li.MainMenu-item
+          a.MainMenu-link(href='')
+            span.MainMenu-text Cabeceras
+        li.MainMenu-item
+          a.MainMenu-link(href='')
+            span.MainMenu-text Landing
+    li.MainMenu-item
+      a.MainMenu-link(href='')
+        span.MainMenu-text Servicios
+    li.MainMenu-item
+      a.MainMenu-link(href='')
+        span.MainMenu-text Tienda Virtual
+    li.MainMenu-item
+      a.MainMenu-link(href='')
+        span.MainMenu-text Contacto
+        
+header
+  .LogoAndMenu(data-LogoAndMenu-skin='1')
+    .flexWrapper
+      a.MainLogo.u-imgLink(href='#LINK_WEB_SITE')
+        <img src="demo/logo.png" class="ImagenLogo">
+      nav.MainMenuContainer.seo-no-visible-principal(data-MainMenu-skin='1')
+        +menuSuperior
+      a.RsMenuButton.seo-no-visible-principal(href='')
+        i.RsMenuButton-icon.fa.fa-bars
+          span.RsMenuButton-text Menú

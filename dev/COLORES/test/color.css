@@ -1,0 +1,42 @@
+.a1l span:nth-of-type(1) {
+  background: #d33a36;
+}
+.a1l span:nth-of-type(2) {
+  background: #c12e2a;
+}
+.a1l span:nth-of-type(3) {
+  background: #b92c28;
+}
+.a2l span:nth-of-type(1) {
+  background: #d9534f;
+}
+.a2l span:nth-of-type(2) {
+  background: #c12e2a;
+}
+.a2l span:nth-of-type(3) {
+  background: #b92c28;
+}
+.abl span:nth-of-type(1) {
+  background: #d9534f;
+}
+.abl span:nth-of-type(2) {
+  background: #c12e2a;
+}
+.abl span:nth-of-type(3) {
+  background: #b92c28;
+}
+.box span {
+  display: block;
+  height: 200px;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 33%;
+  height: 100vh;
+  float: left;
+}

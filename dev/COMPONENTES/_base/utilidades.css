@@ -1,0 +1,326 @@
+/*------------------------------------*\
+    $UTILIDADES.css
+\*------------------------------------*/
+[role="button"] {
+  cursor: pointer;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+/*------------------------------------*\
+    > utilidades:img
+\*------------------------------------*/
+
+.thumbnail{
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+.u-imgResponsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.u-imgRounded{
+  border-radius: 6px;
+}
+.u-imgThumbnail{
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.u-imgCircle{
+  border-radius: 50%;
+}
+
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
+
+/*------------------------------------*\
+    > utilidades:texto
+\*------------------------------------*/
+.u-textLeft,
+[data-alineacion="left"],
+[data-alineacion="u-textLeft"] {
+  text-align: left;
+}
+.u-textRight,
+[data-alineacion="right"],
+[data-alineacion="u-textRight"]{
+  text-align: right;
+}
+.u-textCenter,
+[data-alineacion="center"],
+[data-alineacion="u-textCenter"] {
+  text-align: center;
+}
+.u-textJustify,
+[data-alineacion="justify"],
+[data-alineacion="u-textJustify"] {
+  text-align: justify;
+}
+.u-textNowrap{
+  white-space: nowrap;
+}
+.u-textLowercase{
+  text-transform: lowercase;
+}
+.u-textUppercase{
+  text-transform: uppercase;
+}
+.u-textCapitalize{
+  text-transform: capitalize;
+}
+.u-textMuted{
+  color: #777777;
+}
+
+/*------------------------------------*\
+    > utilidades:colores
+\*------------------------------------*/
+.u-textSucces{
+  color: #3c763d;
+}
+a.u-textSuccess:hover{
+  color: #2b542c;
+}
+.u-textInfo{
+  color: #31708f;
+}
+a.u-textInfo:hover{
+  color: #245269;
+}
+.u-textWarning{
+  color: #8a6d3b;
+}
+a.u-textWarning:hover{
+  color: #66512c;
+}
+.u-textDanger{
+  color: #a94442;
+}
+a.u-textDanger:hover{
+  color: #843534;
+}
+
+.u-bgSuccess{
+  background-color: #dff0d8;
+}
+a.u-bgSuccess:hover{
+  background-color: #c1e2b3;
+}
+.u-bgInfo{
+  background-color: #d9edf7;
+}
+a.u-bgInfo:hover,
+a.bg-info:hover {
+  background-color: #afd9ee;
+}
+.u-bgWarning{
+  background-color: #fcf8e3;
+}
+a.u-bgWarning:hover{
+  background-color: #f7ecb5;
+}
+.u-bgDanger{
+  background-color: #f2dede;
+}
+a.u-bgDanger:hover{
+  background-color: #e4b9b9;
+}
+
+/*------------------------------------*\
+    > utilidades:texto
+\*------------------------------------*/
+.u-textShadow{
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.41);
+}
+
+[class^="u-mask"] > .estructura,
+[class*=" u-mask"] > .estructura{
+  position:relative;
+}
+[class^="u-mask"]:before, [class*=" u-mask"]:before{
+  content:"";
+  position:absolute;
+  left:0;right:0;top:0;bottom:0;
+  background-repeat:repeat;
+  z-index:0;
+  pointer-events:none;
+}
+.u-mask1:before{
+  background-image: url(http://app.misaplicaciones.com/9/recursos/img/mask1.png);
+}
+/*------------------------------------*\
+    > utilidades:alineacion y pos
+\*------------------------------------*/
+.u-relative{
+  position:relative;
+}
+.u-centerBlock{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.u-right{
+  float:right;
+}
+.u-left{
+  float:left;
+}
+.u-pullRight{
+  float: right !important;
+}
+.u-pullLeft{
+  float: left !important;
+}
+
+/*------------------------------------*\
+    > utilidades:visibiidad
+\*------------------------------------*/
+.u-hide{
+  display: none !important;
+}
+@media all and (max-width: 768px){
+      .u-hide-on-mobile{
+        display:none;
+      }
+}
+.u-show {
+  display: block !important;
+}
+.u-invisible{
+  visibility: hidden;
+}
+.u-textHide{
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.u-hidden{
+  display: none !important;
+}
+
+/*------------------------------------*\
+    > utilidades:flexify
+\*------------------------------------*/
+.u-flexRow{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+}
+.u-flexRow--vertical{
+  flex-direction:column;
+}
+.u-flexRow > *{
+  display: flex!important;
+}
+.u-flexRow input{
+  width: auto;
+}
+
+/*------------------------------------*\
+    > utilidades:misc
+\*------------------------------------*/
+
+.u-pageHeader{
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.u-noRadius{
+  border-radius: 0px!important;
+}
+.u-mb-0{
+  margin-bottom:0px;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+
+/*------------------------------------*\
+    > utilidades:elementos
+\*------------------------------------*/
+.u-hero{
+  height: 100vh;
+  position: relative;
+}
+.u-hero > .estructura {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left:0;
+  right:0;
+}
+
+
+
+
+.clearfix:before,
+.clearfix:after,
+.estructura:before,
+.estructura:after,
+.nav:before,
+.nav:after,
+.pager:before,
+.pager:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.estructura:after,
+.nav:after,
+.pager:after{
+  clear: both;
+}

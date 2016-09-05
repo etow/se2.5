@@ -1,0 +1,61 @@
+/*------------------------------------*\
+    $GRILLA Y ESTRUCTURA
+\*------------------------------------*/
+
+.estructura {
+  display: flex;
+  flex: 1 0 100%;
+  flex-direction:column;
+}
+
+.colSe {
+  display:flex;
+  flex: 1 0 100%;
+  flex-direction:column;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+}
+.callOut{
+  display:block!important;
+  width:100%;
+}
+
+
+@media only screen and (min-width: 64.0000em) {
+.estructura {
+  flex-direction:row;
+}
+.colSe_1{
+  flex:0 0 100%;
+}
+.colSe_1_2{
+  flex:0 0 50%;
+}
+.colSe_1_3{
+  flex:0 0 33.3333%;
+}
+.colSe_2_3{
+  flex: 0 0 66.3333%;
+}
+.colSe_1_4{
+  flex:0 0 25%;
+}
+.colSe_3_4{
+  flex:0 0 75%;
+}
+.colSe_1_5{
+  flex: 0 0 20%;
+}
+.colSe_1_6{
+  flex: 0 0 16.6666%;
+}
+}
+
+.demoCallOut{
+    padding:20px;
+    background:#dfdfdf;
+    text-align: center
+}
+.contentWrapper{
+  position:relative;
+}

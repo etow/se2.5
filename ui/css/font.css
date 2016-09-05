@@ -1,0 +1,471 @@
+
+@font-face {
+  font-family: 'elemento-icon';
+  src:  url('fonts/elemento-icon.eot?5otdu');
+  src:  url('fonts/elemento-icon.eot?5otdu#iefix') format('embedded-opentype'),
+    url('fonts/elemento-icon.ttf?5otdu') format('truetype'),
+    url('fonts/elemento-icon.woff?5otdu') format('woff'),
+    url('fonts/elemento-icon.svg?5otdu#elemento-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'elemento-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-left-right:before {
+  content: "\e900";
+}
+.icon-news:before {
+  content: "\e91a";
+}
+.icon-buscador-tienda:before {
+  content: "\e901";
+}
+.icon-categorias-tienda:before {
+  content: "\e902";
+}
+.icon-footer:before {
+  content: "\e903";
+}
+.icon-menu:before {
+  content: "\e904";
+}
+.icon-tienda:before {
+  content: "\e905";
+}
+.icon-boton:before {
+  content: "\e906";
+}
+.icon-call:before {
+  content: "\e907";
+}
+.icon-clientes:before {
+  content: "\e908";
+}
+.icon-contacto:before {
+  content: "\e909";
+}
+.icon-columna:before {
+  content: "\e90a";
+}
+.icon-formulario:before {
+  content: "\e90b";
+}
+.icon-html:before {
+  content: "\e90c";
+}
+.icon-iconos:before {
+  content: "\e90d";
+}
+.icon-imagen:before {
+  content: "\e90e";
+}
+.icon-mapa:before {
+  content: "\e90f";
+}
+.icon-mediabox:before {
+  content: "\e910";
+}
+.icon-newsletter:before {
+  content: "\e911";
+}
+.icon-parrafo:before {
+  content: "\e912";
+}
+.icon-redes:before {
+  content: "\e913";
+}
+.icon-separador:before {
+  content: "\e914";
+}
+.icon-slider:before {
+  content: "\e915";
+}
+.icon-staff:before {
+  content: "\e916";
+}
+.icon-testimonio:before {
+  content: "\e917";
+}
+.icon-titulo:before {
+  content: "\e918";
+}
+.icon-video:before {
+  content: "\e919";
+}
+
+
+/*CLASES PARA EL SELECTOR DE FUUENTES*/
+.ico_Bevan, .ico_Amatic_SC, .ico_Abril_Fatface, .ico_Amaranth, .ico_Andika, .ico_Archivo_Narrow, .ico_Bitter, .ico_Bree_Serif, .ico_Arvo, .ico_Cabin, .ico_Cardo, .ico_Buda, .ico_Chewy, .ico_Copse, .ico_Cabin_Sketch, .ico_Dancing_Script, .ico_Didact_Gothic, .ico_Dosis, .ico_EB_Garamond, .ico_Fauna_One, .ico_Flamenco, .ico_Great_Vibes, .ico_Hind, .ico_Istok_Web, .ico_Fjalla_One, .ico_Josefin_Sans, .ico_Josefin_Slab, .ico_Lato, .ico_Ledger, .ico_Libre_Baskerville, .ico_Lobster_Two, .ico_Lora, .ico_Molengo, .ico_Montserrat, .ico_Muli, .ico_Nixie_One, .ico_Nunito, .ico_Old_Standard_TT, .ico_Open_Sans, .ico_Oswald, .ico_Oxygen, .ico_Pacifico, .ico_Parisienne, .ico_Patua_One, .ico_Philosopher, .ico_Paytone_One, .ico_Playfair_Display, .ico_Pontano_Sans, .ico_PT_Sans, .ico_Quattrocento, .ico_Quicksand, .ico_Raleway, .ico_Roboto, .ico_Roboto_Slab, .ico_Rokkitt, .ico_Source_Sans_Pro, .ico_Titillium_Web, .ico_Ubuntu, .ico_Varela_Round {
+  display: inline-block;
+  background-image: url(../img/interfaz/spritebox-sprite.png);
+  background-repeat: no-repeat
+}
+
+.ico_Bevan {
+  background-position: -0px -0px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Amatic_SC {
+  background-position: -0px -28px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Abril_Fatface {
+  background-position: -0px -56px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Amaranth {
+  background-position: -0px -84px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Andika {
+  background-position: -0px -112px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Archivo_Narrow {
+  background-position: -165px -0px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Bitter {
+  background-position: -165px -28px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Bree_Serif {
+  background-position: -165px -56px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Arvo {
+  background-position: -165px -84px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Cabin {
+  background-position: -165px -112px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Cardo {
+  background-position: -0px -140px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Buda {
+  background-position: -165px -140px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Chewy {
+  background-position: -0px -168px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Copse {
+  background-position: -165px -168px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Cabin_Sketch {
+  background-position: -0px -196px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Dancing_Script {
+  background-position: -165px -196px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Didact_Gothic {
+  background-position: -0px -224px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Dosis {
+  background-position: -165px -224px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_EB_Garamond {
+  background-position: -0px -252px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Fauna_One {
+  background-position: -165px -252px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Flamenco {
+  background-position: -0px -280px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Great_Vibes {
+  background-position: -165px -280px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Hind {
+  background-position: -330px -0px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Istok_Web {
+  background-position: -330px -28px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Fjalla_One {
+  background-position: -330px -56px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Josefin_Sans {
+  background-position: -330px -84px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Josefin_Slab {
+  background-position: -330px -112px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Lato {
+  background-position: -330px -140px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Ledger {
+  background-position: -330px -168px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Libre_Baskerville {
+  background-position: -330px -196px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Lobster_Two {
+  background-position: -330px -224px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Lora {
+  background-position: -330px -252px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Molengo {
+  background-position: -330px -280px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Montserrat {
+  background-position: -0px -308px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Muli {
+  background-position: -165px -308px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Nixie_One {
+  background-position: -330px -308px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Nunito {
+  background-position: -0px -336px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Old_Standard_TT {
+  background-position: -165px -336px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Open_Sans {
+  background-position: -330px -336px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Oswald {
+  background-position: -0px -364px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Oxygen {
+  background-position: -165px -364px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Pacifico {
+  background-position: -330px -364px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Parisienne {
+  background-position: -0px -392px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Patua_One {
+  background-position: -165px -392px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Philosopher {
+  background-position: -330px -392px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Paytone_One {
+  background-position: -0px -420px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Playfair_Display {
+  background-position: -165px -420px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Pontano_Sans {
+  background-position: -330px -420px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_PT_Sans {
+  background-position: -0px -448px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Quattrocento {
+  background-position: -165px -448px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Quicksand {
+  background-position: -330px -448px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Raleway {
+  background-position: -495px -0px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Roboto {
+  background-position: -495px -28px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Roboto_Slab {
+  background-position: -495px -56px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Rokkitt {
+  background-position: -495px -84px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Source_Sans_Pro {
+  background-position: -495px -112px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Titillium_Web {
+  background-position: -495px -140px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Ubuntu {
+  background-position: -495px -168px;
+  height: 28px;
+  width: 165px
+}
+
+.ico_Varela_Round {
+  background-position: -495px -196px;
+  height: 28px;
+  width: 165px
+}
+

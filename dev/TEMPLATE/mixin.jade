@@ -1,0 +1,104 @@
+mixin head
+  if dev == false
+    | #HEAD
+  else
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js',type='text/javascript')
+
+mixin links
+  if dev == true
+    link(href='se.css', rel='stylesheet', type='text/css')
+    link(href='demo.css', rel='stylesheet', type='text/css')
+
+mixin link_color
+  if dev == true
+    link(href='imagenes/template/_001.css', rel='stylesheet', type='text/css')
+
+mixin menuSuperior
+  if dev == true
+    ul#MenuPrincipal.MenuPrincipal.Menu
+      li.Menu-item
+        a.select.is-active.Menu-link(href='')
+          span.Menu-text Quienes Somos
+        span.subMenu
+          ul.Menu
+            li.Menu-item
+              a.Menu-link(href='')
+                span.Menu-text Test de Contenidos
+            li.Menu-item
+              a.Menu-link(href='')
+                span.Menu-text Cabeceras
+            li.Menu-item
+              a.Menu-link(href='')
+                span.Menu-text Landing
+      li.Menu-item
+        a.Menu-link(href='')
+          span.Menu-text Servicios
+      li.Menu-item
+        a.Menu-link(href='')
+          span.Menu-text Tienda Virtual
+      li.Menu-item
+        a.Menu-link(href='')
+          span.Menu-text Contacto
+  else
+    | #MENU
+
+mixin menuSeccion
+  if dev == true
+    ul.MenuSeccion
+      li.MainSection-item
+        a.MainSection-link(href='')
+          span.MainSection-text seccion1
+      li.MainSection-item
+        a.MainSection-link(href='')
+          span.MainSection-text seccion 2
+      li.MainSection-item
+        a.MainSection-link(href='')
+          span.MainSection-text seccion 3
+  else
+    | #SECCIONES
+
+mixin cabecera
+  div#cabecera
+
+mixin poweredby
+  if dev == true
+    p(align='center')
+      a(href='http://www.sitioexpress.com')
+        img(alt='Diseño y Hosting > Sitio Express', src='http://www.infocomercial.com/servicios/banner-pie-sitio-express.png', align='top', border='0', vspace='5')
+  else
+    | #POWERED_BY
+
+mixin titulo
+  if dev == true
+    h1 Titulo H1
+  else
+    | #TITULO
+
+mixin logo
+  if dev == true
+    img(src="logo.png", class="ImagenLogo")
+  else
+    | #LOGO
+
+mixin zonaSup
+  if dev != true
+    | #CONTENIDO_ZONA_SUPERIOR
+
+mixin zonaInf
+  if dev != true
+    | #CONTENIDO_ZONA_INFERIOR
+
+mixin script
+  if dev != true
+    // Codigo del share this
+    //script(type='text/javascript').
+      var switchTo5x=true;
+    //script(type='text/javascript').
+      stLight.options({publisher: "17faa87d-f5e2-4733-af61-86de3f32a4c8"});
+    //script(type='text/javascript', src='http://w.sharethis.com/button/buttons.js')
+
+mixin texto
+  if dev == true
+    include demo_content
+  else
+    | #TEXTO

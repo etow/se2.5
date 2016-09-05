@@ -1,0 +1,47 @@
+.large-1{width:8.33%;}
+.large-2{width:16.66%;}
+.large-3{width:25%;}
+.large-4{width:33.33%;}
+.large-5{width:41.66%;}
+.large-6{width:50%;}
+.large-7{width:58.33%;}
+.large-8{width:66.66%;}
+.large-9{width:75%;}
+.large-10{width:83.33%;}
+.large-11{width:91.66%;}
+.large-12{width:960px;}
+
+.push-1,.push-2,.push-3,.push-4,.push-5,.push-6,.push-7,.push-8,.push-9,.push-10,.push-11,.push-12
+{margin:0!important;float:right!important;}
+
+.pull-1,.pull-2,.pull-3,.pull-4,.pull-5,.pull-6,.pull-7,.pull-8,.pull-9,.pull-10,.pull-11,.pull-12
+{margin:0!important;float:left!important;}
+
+
+.row{width:960px!important; max-width:960px!important;}
+.row .row{width:100%!important;max-width:100%!important;}
+.se-container {
+	padding: 0 20px;
+}
+#menu-mobile-button{display:none!important;}
+
+/*Especifico del tempalte*/
+.compartir-en{position:static!important;font-size:14px!important;}
+.titulo:before {
+    font-size: 18px;
+}
+.bnreset {
+	margin-right: 45px !important;
+}
+
+body.menu-pie-no-visible .seo-no-visible-100{width:100%;}
+body.menu-pie-no-visible .seo-no-visible-100.contacto {
+	margin: 0;
+	padding-left: 0.9375em !important;
+}
+
+body.menu-pie-no-visible .seo-no-visible-100.contacto .large-12 {
+	float: left;
+	padding-right: 30px;
+	width: auto;
+}

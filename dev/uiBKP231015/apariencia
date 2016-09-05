@@ -1,0 +1,6 @@
+    <li class="ConfigMenu-item is-active" data-role="menu" data-nav="seui">
+      <i class="ConfigMenu-icon se-icon-aspecto"></i>
+      <span class="ConfigMenu-text">
+        Apariencia
+      </span>
+    </li>

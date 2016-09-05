@@ -1,0 +1,346 @@
+/*------------------------------------*\
+    $HEADER.css
+\*------------------------------------*/
+.Section--logoAndMenu{
+	transition: background-color 200ms, height 200ms;
+  position:relative;
+}
+
+.header-oculto .Section--logoAndMenu{
+	display:none;
+}
+.Section--logoAndMenu:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:0;
+  transition: opacity 200ms;
+}
+.Section--logoAndMenu.sticky:before,
+.Section--logoAndMenu.sticky-mobile:before{
+  opacity:.93!important;
+}
+
+[data-header-type="3"] .Section--logoAndMenu.sticky:before{
+  opacity:1!important;
+}
+
+/*-- $CONTENEDORES --*/
+
+.MainLogo-img, .ImagenLogo{
+	max-width: 100%;
+	max-height: 140px;
+	transition: height 200ms;
+}
+.MainMenuContainer{
+	display:none;}
+
+.SeConfig:not([data-header-type="3"]) .Section--logoAndMenu.sticky .ImagenLogo{
+	height: 45px;
+}
+
+
+.MainLogo{
+	z-index: 1;
+	position: relative;
+	transition: height 200ms;
+	display: flex;
+	align-items: center;
+}
+
+.MainLogo span{
+	transition: height 150ms;
+}
+/*-- $MENU --*/
+.Menu{
+	list-style: none;
+	margin:0;
+	padding:0;}
+
+	.Menu-item{
+		position:relative;
+	}
+
+
+/*-- $BTN RESPONSIVE MENU --*/
+.RsMenuButton-text{
+	text-indent: -9999em;
+	display: inline-block;}
+
+.RsMenuButton-icon{
+	font-size: 34px;
+	box-shadow: none;
+	height: 34px;
+	overflow: hidden;
+}
+
+/*
+.StickyHelper{
+	transition: all 1000ms;
+}*/
+/*------------------------------------*\
+    $HEADER LAYOUT SKIN
+\*------------------------------------*/
+
+/*-- $RESPONSIVE MENU --*/
+.RsMenuButton{
+	flex-grow:1;
+	display: flex;
+	justify-content:flex-end;
+	align-items: center; }
+.no-flexbox .RsMenuButton{
+	position: relative;
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+	width: auto; }
+
+.no-flexbox .RsMenuButton-text{
+	display:none; }
+
+.LogoAndMenu{
+	display:flex;
+	flex-direction:row; }
+.no-flexbox .LogoAndMenu{
+	display:table;
+	width:100%; }
+
+[data-header-transparent="1"] .Section--logoAndMenu{
+	position:absolute;
+	top:0;
+}
+
+[data-header-transparent="1"] .StickyHelper{
+	display:none!important;
+}
+
+[data-header-color="3"] .Header{
+  background-color:transparent!important;
+}
+[data-header-transparent="1"] .Section--logoAndMenu:before{
+	opacity:0;
+}
+[data-header-transparent="1"][data-header-type="3"] .Section--logoAndMenu.sticky:before{
+	opacity:0!important;
+}
+
+@media only screen and (min-width: 50.0000em) {
+/*-- $HEADER SKIN 1 --*/
+	[data-header-type="1"] .MainMenuContainer .MenuPrincipal > .Menu-item{
+		padding:22px 0; }
+	[data-header-type="1"] .sticky .MainMenuContainer .MenuPrincipal > .Menu-item{
+		padding:0px 0; }
+
+	[data-header-type="1"] .MainMenuContainer,
+	[data-header-type="1"] .MainMenuContainer .MenuPrincipal{
+		display: flex;
+		justify-content:flex-end;
+		flex-grow:1;
+		flex-wrap:wrap; }
+
+	[data-header-type="1"] .MainLogo{
+		display: flex;
+		align-items:center;
+		padding:16px 0;
+	}
+	[data-header-type="1"] .sticky .MainLogo{
+		padding:10px 0;
+	}
+
+	.no-flexbox [data-header-type="1"] .MainMenuContainer{
+		display:table-cell;
+		margin:0 0 0 auto;
+		vertical-align: middle;	}
+	.no-flexbox [data-header-type="1"] .MainMenuContainer .MenuPrincipal{
+		display:table;
+		margin: 0 0 0 auto;	}
+	.no-flexbox [data-header-type="1"] .MainMenuContainer .MenuPrincipal > .Menu-item{
+		display:table-cell;	}
+
+	.no-flexbox [data-header-type="1"] .MainMenuContainer .Menu-text{
+		display:block;	}
+
+	.no-flexbox [data-header-type="1"] .MainLogo{
+		padding:24px 0;
+	}
+	.no-flexbox [data-header-type="1"] .sticky .MainLogo{
+		padding:10px 0;
+	}
+
+
+
+
+/*-- $HEADER SKIN 2 --*/
+	[data-header-type="2"] .LogoAndMenu{
+		flex-direction: column;
+
+	}
+	[data-header-type="2"] .MainLogo{
+		margin-bottom:.5em;
+		padding-top:24px;
+		text-align: center;
+		justify-content:center;
+		}
+	[data-header-type="2"] .MainMenuContainer,
+	[data-header-type="2"] .MainMenuContainer .MenuPrincipal{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap; }
+	.MainMenuContainer .MenuPrincipal .Menu-item{
+		display: flex;
+		align-items:center; }
+
+	.no-flexbox [data-header-type="2"] .LogoAndMenu{
+		display: block;
+		text-align: center;
+	}
+	.no-flexbox [data-header-type="2"] .MainLogo{
+		display: inline-block;
+	}
+	.no-flexbox [data-header-type="2"] .MainMenuContainer,
+	.no-flexbox [data-header-type="2"] .MainMenuContainer .MenuPrincipal{
+		display: block;
+	}
+
+	.no-flexbox .MainMenuContainer .MenuPrincipal > .Menu-item{
+		display: inline-block; }
+
+	.no-flexbox .MainMenuContainer .MenuPrincipal .Menu-text{
+		display: block; }
+
+	[data-header-type="2"] .MiniCart-toggler{
+		margin-bottom:1em;
+	}
+
+
+
+/*-- $HEADER VERTICAL SKIN 3--*/
+	[data-header-type="3"] .SiteWrapper{
+		margin-left:250px; }
+	[data-header-type="3"] .Section--logoAndMenu{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index:200;
+		min-height: 100vh;
+		width: 250px;
+		display:block;
+		bottom:0;
+		transform:translateX(-250px);	}
+
+
+	[data-header-type="3"] .LogoAndMenu{
+		display:block; }
+	[data-header-type="3"] .MainLogo{
+		padding:10px 0;
+		display:block;
+		text-align: center;
+		margin-top:30px;	}
+
+	.no-flexbox [data-header-type="3"] .MainMenuContainer .MenuPrincipal .Menu-text{
+		display:inline-block;
+		width:100%;
+	}
+
+	[data-sticky="1"][data-header-type="3"] .Section--logoAndMenu .estructura{
+		position: absolute;
+		width:100%;
+	}
+
+	[data-header-type="3"] .MiniCart-toggler{
+		display:block;
+		width:25px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	[data-header-type="3"] .MiniCart-toggler:after{
+		display:none;
+	}
+
+	.RsMenuButton{
+		display:none;
+	}
+}
+
+[data-sticky="1"] .Section--logoAndMenu.sticky{
+	position: fixed;
+	top:0!important;
+	left:0;
+	z-index:200;
+}
+
+	.SeConfig[data-header-type='2'] .sticky .MainLogo{
+      display: none;
+  }
+  .SeConfig[data-header-type='2'] .sticky .MainMenuContainer{
+      height:100%;
+  }
+  .SeConfig[data-header-type='2'][data-menu-type="9"] .sticky .MenuPrincipal > .Menu-item,
+  .SeConfig[data-header-type='2'][data-menu-type="10"] .sticky .MenuPrincipal > .Menu-item{
+      padding-bottom:5px;
+      padding-top:5px;
+  }
+  .sticky-mobile{
+      top:0!important;
+      position: fixed!important;
+  }
+
+/*Fixed ON SCROLL*/
+@media only screen and (min-width: 50.0000em) {
+	[data-sticky="1"] .Section--logoAndMenu.sticky{
+		transform:translateY(0);
+	}
+}
+
+/*MAX WIDTHS*/
+
+/*
+@media only screen and (max-width:56.250em){
+	[data-header-type="1"] .MainLogo{
+		max-height: 100px;
+	}
+}*/
+
+@media only screen and (max-width:49.938em){
+	[data-sticky="1"] .Section--logoAndMenu.sticky{
+		position: absolute;
+	}
+	.LogoAndMenu{
+		height:80px;
+	}
+	.MainLogo span img{
+		height: 60px;
+	  transition: all 200ms;
+	}
+
+	.sticky-mobile .LogoAndMenu{
+		height:55px;
+	}
+	.sticky-mobile .MainLogo{
+		padding:5px 0px;
+	}
+	.sticky-mobile .MainLogo span img{
+		height: 45px;
+		line-height: 45px;
+	}
+	.no-flexbox .MainLogo{
+		display: table;
+	}
+	.no-flexbox .MainLogo span{
+		display: table-cell;
+		vertical-align: middle;
+		height:80px;
+	}
+	.no-flexbox .sticky-mobile .MainLogo{
+		height:55px;
+	}
+	.no-flexbox .sticky-mobile .MainLogo span{
+		height:45px;
+	}
+	
+
+}
+

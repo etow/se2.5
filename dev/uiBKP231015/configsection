@@ -1,0 +1,99 @@
+<div class="ConfigSection is-active" id="seui" data-role="section">
+      <div class="ConfigPage" id="page-1" data-role="page">
+        <div class="PageContent">
+          <button class="GoBack">
+            Volver
+          </button>
+        </div>
+      </div>
+
+      <div class="ConfigPage is-active is-main" data-role="page" id="page-0">
+        <div class="PageContent">
+          <div class="ConfigTitle">
+            <span>Color de tu sitio</span>
+          </div>
+          <div class="ConfigBox">  
+            <div href="" class="ConfigButton">
+              Paleta de Color
+            </div> 
+            <div class="ConfigCheckbox-wrapper ConfigOption-to-1col">
+                <a href="" class="ConfigCheckbox ImageCheckbox is-active">
+                  <img src="<?=$base_url;?>/9/ui/img/aspecto/paletas/paleta.jpg" alt="">
+                </a>
+                <a href="" class="ConfigOption ConfigCheckbox ImageCheckbox">
+                  <img src="<?=$base_url;?>/9/ui/img/aspecto/paletas/paleta.jpg" alt="">
+                </a>
+                <a href="" class="ConfigOption ConfigCheckbox ImageCheckbox">
+                  <img src="<?=$base_url;?>/9/ui/img/aspecto/paletas/paleta.jpg" alt="">
+                </a>
+            </div>       
+            <div href="" class="ConfigButton">
+              Color de Acento
+            </div>        
+            <div class="ConfigCheckbox-wrapper" >
+                <a href="" class="ConfigCheckbox ColorCheckbox is-active template-accent-1" data-action="accent" data-var="1">
+                </a>
+                <a href="" class="ConfigCheckbox ColorCheckbox template-accent-2" data-action="accent" data-var="2">
+                </a>
+            </div>
+            <div href="" class="ConfigButton">
+              Color de Submenu
+            </div>
+            <div class="ConfigCheckbox-wrapper" >
+                <a href="" class="ConfigCheckbox ColorCheckbox is-active template-accent-1" data-action="buttons" data-var="1">
+                </a>
+                <a href="" class="ConfigCheckbox ColorCheckbox template-accent-2" data-action="accent" data-var="2">
+                </a>
+                <a href="" class="ConfigCheckbox ColorCheckbox template-accent-2" data-action="accent" data-var="2">
+                </a>
+            </div>
+            <div href="" class="ConfigButton">
+              Luminosidad
+            </div>
+            <div class="ConfigCheckbox-wrapper" >
+                <a href="" class="ConfigCheckbox ColorCheckbox is-active template-accent-1" data-action="back" data-var="light">
+                </a>
+                <a href="" class="ConfigCheckbox ColorCheckbox template-accent-2" data-action="back" data-var="dark">
+                </a>
+            </div>
+            
+
+
+          </div><!--/ConfigBox--> 
+          <div class="ConfigTitle">
+            <span>Estructura del sitio</span>
+          </div>
+          <div class="ConfigBox">  
+            <div href="" class="ConfigButton">
+              Cabecera
+            </div> 
+            <div class="ConfigCheckbox-wrapper ConfigOption-to-3col">
+                <a href="" class="ConfigOption ConfigCheckbox ImageCheckbox is-active">
+                  <img src="<?=$base_url;?>/9/ui/img/aspecto/cabecera/horizontal.png" alt="">
+                </a>
+                <a href="" class="ConfigOption ConfigCheckbox ImageCheckbox">
+                  <img src="<?=$base_url;?>/9/ui/img/aspecto/cabecera/vertical.png" alt="">
+                </a>
+                <a href="" class="ConfigOption ConfigCheckbox ImageCheckbox">
+                  <img src="<?=$base_url;?>/9/ui/img/aspecto/cabecera/lateral.png" alt="">
+                </a>
+            </div>
+            <div href="" class="ConfigButton">
+              Tipo de Menu
+            </div> 
+            <div class="ConfigCheckbox-wrapper ConfigOption-to-3col">
+                <a href="" class="ConfigOption ConfigCheckbox ImageCheckbox is-active">
+                  <img src="<?=$base_url;?>/9/ui/img/aspecto/cabecera/horizontal.png" alt="">
+                </a>
+                <a href="" class="ConfigOption ConfigCheckbox ImageCheckbox">
+                  <img src="<?=$base_url;?>/9/ui/img/aspecto/cabecera/vertical.png" alt="">
+                </a>
+                <a href="" class="ConfigOption ConfigCheckbox ImageCheckbox">
+                  <img src="<?=$base_url;?>/9/ui/img/aspecto/cabecera/lateral.png" alt="">
+                </a>
+            </div>
+          </div><!--ConfigBox-->       
+
+        </div><!--/PageContent-->
+      </div><!--/ConfigPage-->
+    </div>

@@ -1,0 +1,54 @@
+acento1 = #c12e2a
+acento2 = #c12e2a
+acento1_lighten = lighten(acento1,6)
+acento1_darken = shade(darken(acento1, 1),2%)
+acento2_lighten = lighten(acento1,12)
+acento2_darken = shade(darken(acento2, 1),2%)
+
+
+.a1l span:nth-of-type(1){
+	background:acento1_lighten;
+}
+.a1l span:nth-of-type(2){
+	background:acento1;
+}
+.a1l span:nth-of-type(3){
+	background:acento1_darken;
+}
+
+.a2l span:nth-of-type(1){
+	background:acento2_lighten;
+}
+.a2l span:nth-of-type(2){
+	background:acento2;
+}
+.a2l span:nth-of-type(3){
+	background:acento2_darken;
+}
+
+.abl span:nth-of-type(1){
+	background:#d9534f;
+}
+.abl span:nth-of-type(2){
+	background:#c12e2a;
+}
+.abl span:nth-of-type(3){
+	background:#b92c28;
+}
+
+
+.box span{
+	display:block;
+	height:200px;
+}
+
+body,html{
+	height:100%;
+	margin:0;
+	padding:0;
+}
+.box{
+	width:33%;
+	height:100vh;
+	float:left;
+}

@@ -1,0 +1,126 @@
+acento1_lighten = lighten(acento1,9)
+acento1_darken = shade(darken(acento1, 1),2%)
+acento2_lighten = lighten(acento2,9)
+acento2_darken = shade(darken(acento2, 1),2%)
+
+secundario_lighten = tint(lighten(spin(secundario, -3deg),10),18)
+
+negroBase = #262d2e
+grisoscuro = #333333
+grisclaro = #262626
+
+/*------------------------------------*\
+    #COLORES GENERALES
+\*------------------------------------*/
+
+body{
+  color:textosOscuro;
+}
+
+/*-- @FONDO Y TEXTO --*/
+  [data-luma="claro"].background-se,
+  [data-luma="claro"] .SiteContent{
+    background-color:backClaro;}
+  [data-luma="claro"] { 
+    color:textosOscuro; }
+
+  [data-luma="oscuro"].background-se,
+  [data-luma="oscuro"] .SiteContent{
+    background-color:backOscuro; }
+  [data-luma="oscuro"] { 
+    color:textosClaro; }
+  
+/*-- @VINCULOS --*/
+  a{
+  color: link; 
+  }
+  a:hover{
+    color:link_lighten; }
+  a:not(.btn):visited {
+    color: link; }
+     
+  .Footer a{
+    color:linkFooter; }
+  .Footer a:hover{
+    color:linkFooter_lighten; }
+  .Footer a:not(.btn):visited{
+    color:linkFooter; }
+      
+@import 'plantillas/menu_skins.styl';
+@import 'plantillas/botones.styl';
+@import 'plantillas/elementos.styl'
+@import 'plantillas/titulos.styl'
+@import 'plantillas/utils.styl'
+@import 'plantillas/plugins.styl'
+@import 'plantillas/headers.styl'
+
+/*------------------------------------*\
+    $CLASES UTILITARIAS
+\*------------------------------------*/
+
+/*-- TEXTO --*/
+  .u-color--claro,
+  .u-colorclaro{
+    color:claro; }
+  .u-color--oscuro,
+  .u-coloroscuro,
+  .u-color--primario{
+    color:primario; }
+  .u-color--secundario{
+    color:secundario; }
+  .u-color--acento-1{
+    color:acento1; }
+  .u-color--acento-2{
+    color:acento2; }
+  [data-accent="1"] .u-color--acento{
+    color:acento1; }
+  [data-accent="2"] .u-color--acento{
+    color:acento2; }
+  .u-color--call{
+    color:callBack1;
+  }
+
+
+/* BACKGROUNDS */
+  .u-colorBg--claro{
+    background-color:claro; }
+  .u-colorBg--oscuro,
+  .u-colorBg--primario{
+    background-color:primario; }
+  .u-colorBg--secundario{
+    background-color:secundario; }
+  .u-colorBg--acento-1{
+    background-color:acento1; }
+  .u-colorBg--acento-2{
+    background-color:acento2; }
+  [data-accent="1"] .u-colorBg--acento{
+    background-color:acento1; }
+  [data-accent="2"] .u-colorBg--acento{
+    background-color:acento2; }
+  .u-colorBg--call{
+    background-color:callBack1;
+  }
+
+  .MenuMobile-desplegarIcon{
+    color:claro; }
+
+/* UI HELPERS */
+.template-luma-claro{
+  background-color:backClaro;
+}
+.template-luma-oscuro{
+  background-color:backOscuro;
+}
+.template-accent-1{
+  background-color:acento1;
+}
+.template-accent-2{
+  background-color:acento2;
+}
+.template-submenu-color-1{
+  background-color:submenuBack1;
+}
+.template-submenu-color-2{
+  background-color:submenuBack2;
+}
+

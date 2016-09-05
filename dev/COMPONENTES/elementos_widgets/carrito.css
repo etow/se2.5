@@ -1,0 +1,310 @@
+/*------------------------------------*\
+    $Carrito.css
+\*------------------------------------*/
+
+/*-- TOGGLER --*/
+.MiniCart-toggler{
+  flex-grow:0;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center; }
+
+.no-flexbox a.MiniCart-toggler {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  width: auto; 
+}
+.MiniCart-toggler{
+  position:relative;
+  width:50px;
+}
+.MiniCart-toggler:after{
+  content: "";
+  width: 2px;
+  height: 50%;
+  position: absolute;
+  left: 16px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  background: rgba(150,150,150,.5);
+}
+.MiniCart-toggler-icon{
+  font-size: 24px;
+  box-shadow: none;
+  height: 24px;
+}
+.MiniCart-badge{
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  right:-10px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0px 6px;
+  transform: translateY(-95%);
+}
+
+/*------------------------------------*\
+    $Cart
+\*------------------------------------*/
+  .Cart{
+    margin-bottom:1em;
+  } 
+  .Cart-thumb{
+    height:50px;
+    width:50px;
+    box-sizing:border-box;
+    display: table-cell;
+    background-size:contain;
+    position: relative;
+  }
+  [data-imagen_articulo="cover"] .Cart-thumb{
+    background-size: cover;
+  }
+  .Cart-info{
+    display: table-cell;
+    vertical-align: top;
+    padding:10px;
+    font-size:14px;
+  }
+  .Cart-btn{
+    margin:0;
+  }
+  .Cart-btn--viewCart{
+    float:right;
+    margin-left:20px;
+  }
+  .Cart-remove{
+    border:2px solid #555;
+    border-radius:100%;
+    width:30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height:26px;
+    color:#555!important;
+    text-align:center;
+  }
+  .Cart-item{
+    position:relative;
+  }
+
+/*------------------------------------*\
+    $CartResume
+\*------------------------------------*/
+
+  .MiniCart{/*
+    position:fixed;*/
+    position:absolute;
+    width:320px;
+    right:0;
+    top:0;
+    z-index:9999;
+    box-shadow: 0px 0px 14px rgba(0,0,0,.2);
+    display:none;
+  }
+  .MiniCart-header{
+    line-height: 34px;
+    text-align: center;
+  }
+  .MiniCart-close{
+    float:right;
+    padding:0 10px;
+    line-height: 34px;
+    cursor:pointer;
+  }
+  .MiniCart.scroll{
+    overflow: hidden;
+  }
+
+  .MiniCart.scroll .Cart--resume{
+    height: 324px;
+    overflow-y: scroll;
+    width: calc(100% + 12px);
+  }
+  .Cart--resume{
+    margin-bottom:5px;
+    padding: 0 5px 0px 5px;
+  }
+  .Cart--resume .Cart-item{
+    border-bottom:1px solid #cdcdcd;
+    padding:8px;
+    display: block;
+    width:100%;
+  }
+  .Cart--resume .Cart-item-wrapper{
+    display:table;
+  }
+  .MiniCart .Cart-subtotal{
+    border-bottom:1px solid #cdcdcd;
+    padding: 16px 8px;
+  }
+  .MiniCart .Cart-subtotal span{
+    float:right;
+  }
+  .MiniCart .Cart-checkout{
+    text-align: center;
+    border-bottom:0px;
+    padding: 16px 8px;
+  }
+  .Cart--resume .Cart-remove {
+    width: 21px;
+    height: 21px;
+    line-height: 16px;
+    color: #a94442 !important;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    border-color: #a94442;
+    z-index: 9;
+    transform: translateY(-50%);
+  } 
+  .Cart-ok{
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 5px;
+    color:#5cb85c;
+  }
+  .Cart-notification{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+  }
+
+/*------------------------------------*\
+    $CartTable
+\*------------------------------------*/
+  .Cart--table{
+    width:100%;
+  }
+  .Cart--table ul{
+    display:table;
+    width:100%;
+  }
+  .Cart--table > li{
+    list-style: none;
+    display: block;
+    position:relative;
+  }
+  .Cart--table ul li{
+    display: table-cell;
+    width:20%;
+    vertical-align: middle;
+  }
+  .Cart--table ul li:first-child{
+    width:12%;
+  }
+  .Cart--table ul li:last-child{
+    width:8%;
+  }
+  .Cart--table > li:nth-of-type(even){
+    background:rgba(150,150,150,.2);
+  }
+  .Cart--table .Cart-item{
+    padding:10px;
+    text-align: center;
+  }
+  .Cart--table .Cart-thumb{
+    margin:0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    padding-top: 100%;
+    display: block;
+    background-position: center;
+  }
+  .Cart--table .Cart-quantity{
+    width: 60px !important;
+    margin: 0 auto !important;
+  }
+  .Cart--table .Cart-update{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+/*------------------------------------*\
+    $CartTotals
+\*------------------------------------*/
+  .CartTotals{
+    max-width:320px;
+    margin-left:auto;
+    margin-top:40px;
+    text-align: center;
+  }
+  .CartTotals ul{
+    list-style-type: none;
+  }
+  .CartTotals-item{
+    padding: 5px 0px;
+    display: none;
+    text-align:left;
+  }
+  .CartTotals.has-cupon .CartTotals-item{
+    display:block;
+  }
+  .CartTotals-item.last{
+    border-top: 1px solid rgb(205, 205, 205);
+    padding: 16px 0px 0px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 1.375em;
+    line-height: 1.091em;
+    display:block;
+  }
+  .CartTotals-attr{
+    font-weight:300;
+  }
+  .CartTotals-val{
+    font-weight:normal;
+    float:right;
+  }
+.Cupon{
+  max-width:300px;
+  float:left;
+}
+.Cupon input{
+  float: left;
+  width: 130px;
+  margin-right: 10px;
+}
+.Cupon-mensaje{
+  display: inline-block;
+  margin-bottom: 18px;
+  line-height: 34px;
+  vertical-align: top;
+}
+.carritoVacio{
+  display:none;
+  text-align: center;
+}
+.sinStock-texto{
+  display:none;
+}
+.sinStock .Cart-thumb{
+  opacity: .4;
+}
+.sinStock ul li:first-child:after{
+  content:"";
+  position:absolute;
+  top:10px;
+  bottom:10px;
+  left:10px;
+  right:10px;
+  background-image:url(http://replace.com/sin-stock.png);
+  background-size: cover;
+  background-position:center;
+  z-index:2;
+}

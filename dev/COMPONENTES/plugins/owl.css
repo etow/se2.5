@@ -1,0 +1,55 @@
+.owl-nav{
+  max-width: 1024px;
+  margin: 0px auto;
+  position: absolute;
+  bottom: 50%;
+  pointer-events:none;
+  left: 0;
+  right: 0;
+}
+
+.owl-prev, 
+.owl-next{
+  position: absolute!important;
+  transform: translateY(-68%)!important;
+  width: 39px;
+  height: 39px;
+  box-sizing:border-box;
+  overflow: hidden;
+	border-radius: 100%!important;
+  opacity:0;
+  transition: opacity 200ms;
+  pointer-events:auto;
+  text-align: center;
+}
+
+.owl-prev i, .owl-next i{
+  font-size: 2.2em!important;
+}
+.owl-prev{
+  left:0%!important;
+}
+.owl-next{
+  right:0%!important;
+  transition: all 200ms;
+}
+.owl-dots{
+  position: absolute!important;
+  bottom: 0!important;
+  width:100%!important;
+}
+.owl-carousel:hover .owl-prev,
+.owl-carousel:hover .owl-next{
+  opacity:1;
+}
+
+
+.sliderTipoImagen .Widget_IngresarImagen,
+.sliderTipoImagen .HoverImg-content{
+  width:100%;
+}
+
+.LayoutClientes .sliderTipoImagen .Widget_IngresarImagen,
+.LayoutClientes .sliderTipoImagen .HoverImg-content{
+  width:auto;
+}

@@ -1,0 +1,157 @@
+.div.grilla
+      div.estructura
+        div.colSe.colSe_1
+          h2.DemoTitle Botones
+          p
+            a.btn.btn-default Boton Default
+            a.btn.btn-accent1 Boton Acento1
+            a.btn.btn-accent2 Boton Acento2
+            a.btn.btn-success Boton Exito
+            a.btn.btn-danger Boton Error
+            a.btn.btn-warning Boton Alerta
+            a.btn.btn-info Boton Info
+            a.btn.btn-black Boton Negro
+            a.btn.btn-white Boton Blanco
+            a.btn.btn-link Link sin estilo
+          hr
+          p
+            a.btn.btn-line.btn-line-default Boton Default
+            a.btn.btn-line.btn-line-accent1 Boton Acento1
+            a.btn.btn-line.btn-line-accent2 Boton Acento2
+            a.btn.btn-line.btn-line-success Boton Exito
+            a.btn.btn-line.btn-line-danger Boton Error
+            a.btn.btn-line.btn-line-warning Boton Alerta
+            a.btn.btn-line.btn-line-info Boton Info
+            a.btn.btn-line.btn-line-black Boton Negro
+            a.btn.btn-line.btn-line-white Boton Blanco
+          hr
+          p
+            a.btn.btn-default.disabled Boton Default
+            a.btn.btn-success.disabled Boton Exito
+            a.btn.btn-danger.disabled Boton Error
+            a.btn.btn-warning.disabled Boton Alerta
+            a.btn.btn-info.disabled Boton Info
+            a.btn.btn-black.disabled Boton Negro
+            a.btn.btn-white.disabled Boton Blanco
+            a.btn.btn-link.disabled Link sin estilo
+      div.estructura
+        div.colSe.colSe_1_1
+          h2.DemoTitle Tipografia
+          h1 Titulo h1 <small>Subtitulo h1</small>
+          h2 tituo h2 <small>Subtitulo h2</small>
+          h3 tituo h3 <small>Subtitulo h3</small>
+          h4 tituo h4 <small>Subtitulo h4</small>
+          h5 tituo h5 <small>Subtitulo h5</small>
+          h6 tituo h6 <small>Subtitulo h6</small>
+          p.lead
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna iqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          p 
+            Duis aute irure dolor <mark>in reprehenderit in voluptate</mark> velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          div.estructura
+            div.colSe.colSe_1_3
+              ul
+                li item 1
+                li item 2
+                li item 3
+            div.colSe.colSe_1_3
+              ol
+                li item 1
+                li item 2
+                li item 3
+            div.colSe.colSe_1_3
+              ul.list-inline
+                li item 1
+                li item 2
+                li item 3
+          div.estructura
+            div.colSe.colSe_1
+              blockquote
+                ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna iqua. 
+          div.estructura
+            div.colSe.colSe_1
+              html
+      div.estructura
+        div.colSe.colSe_1_1
+          h2 Contacto
+          p
+            | Por favor completa con tus consultas o comentarios y te responderemos a la brevedad.
+          input(name='labels[campo_541]', value='Nombre', type='hidden')
+          .itemForm
+            .labelForm Nombre
+            .campoForm
+              input(name='campo_541', type='text')
+          input(name='labels[campo_542]', value='E-Mail', type='hidden')
+          .itemForm
+            .labelForm E-Mail
+            .campoForm
+              input(name='campo_542', type='email')
+          input(name='labels[campo_543]', value='Teléfono', type='hidden')
+          .itemForm
+            .labelForm Teléfono
+            .campoForm
+              input(name='campo_543', type='text')
+          input(name='labels[campo_544]', value='Contraseña', type='hidden')
+          .itemForm
+            .labelForm Contraseña
+            .campoForm
+              input(name='campo_544', type='password')
+          input(name='labels[campo_545]', value='Comentarios', type='hidden')
+          .itemForm
+            .labelForm Comentarios
+            .campoForm
+              textarea(name='campo_545')
+          .itemForm
+            .labelForm
+            .campoForm
+              input(name='campo_546', value='Enviar', type='submit')
+          input(name='labels[campo_547]', value='Lista', type='hidden')
+          .itemForm
+            .labelForm Lista
+            .campoForm
+              select(name='campo_547')
+                option pepe
+                option pepe 2
+          input(name='labels[campo_548]', value='mutipe', type='hidden')
+          .itemForm
+            .labelForm mutipe
+            .campoForm
+              span.opcion
+                input(name='campo_548[]', value='uno', type='checkbox')
+                | uno
+              span.opcion
+                input(name='campo_548[]', value='dos', type='checkbox')
+                | dos
+          input(name='labels[campo_549]', value='unica', type='hidden')
+          .itemForm
+            .labelForm unica
+            .campoForm
+              span.opcion
+                input(name='campo_549', value='una', type='radio')
+                | una
+              span.opcion
+                input(name='campo_549', value='dos', type='radio')
+                | dos
+          input(name='labels[campo_550]', value='captcha', type='hidden')
+          .itemForm
+            .labelForm captcha
+            .campoForm
+              #recaptcha_widget_div(style='display:none')
+              noscript
+                iframe(src='http://www.google.com/recaptcha/api/noscript?k=6LeLGucSAAAAAMkBxTADLLQneeyYi8q5BcQB4GqI', height='300', width='500', frameborder='0')
+                br
+                textarea(name='recaptcha_challenge_field', rows='3', cols='40')
+                input(type='hidden', name='recaptcha_response_field', value='manual_challenge')
+      div.estructura
+        div.colSe.colSe_1_1
+          div.separador.dotted
+          div.separador.default
+          div.separador.s1  
+          div.separador.s2  
+          div.separador.s3  
+          div.separador.s4  
+          div.separador.s5  
+          div.separador.s6  
+          div.separador.full.s7  
+          div.separador.full.s8  
+          div.separador.full.s9
+          div.separador.s10    

@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    $FOOTER.css 
+\*------------------------------------*/
+.footer-oculto footer,
+.footer-oculto .LayoutFooter,
+.footer-oculto .LayoutFooterFinal{
+	display:none!important;
+}
+.Widget_PoweredBy{
+	text-align: right;
+}
+@media all and (max-width:47.938em){
+	.Widget_PoweredBy{
+		text-align: center;
+	}
+}
+/*.flexbox .PoweredBy{
+	display:flex;
+	align-items: center;
+	justify-content: center; }
+	.flexbox .PoweredBy *{
+		display:flex;
+		self-align:center; }
+
+.no-flexbox .PoweredBy{
+	display: table;
+	width:100%; 
+	text-align: left;}
+	.no-flexbox .PoweredBy *{
+		display:table-cell;
+		text-align: left; }
+
+	.PoweredBy p{
+		margin-bottom: 0;
+		padding:0px 5px; }*/

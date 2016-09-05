@@ -1,0 +1,105 @@
+/*------------------------------------*\
+    $UTILS
+\*------------------------------------*/
+
+[data-luma="claro"] .breadcrumb {
+  background-color: claro;
+}
+[data-luma="claro"] .breadcrumb {
+  background-color: oscuro;
+}
+
+[data-luma="claro"] .breadcrumb > li + li:before {
+  color: primario;
+}
+[data-luma="oscuro"] .breadcrumb > li + li:before {
+  color: claro;
+}
+
+[data-accent="1"] .breadcrumb > .active {
+  color: textForBackA1;
+}
+
+[data-accent="2"] .breadcrumb > .active {
+  color: textForBackA2;
+}
+
+[data-luma="claro"] .pagination > li > a,
+[data-luma="claro"] .pagination > li > span {
+  color: primario;
+}
+[data-accent="1"] .pagination > li > a,
+[data-accent="1"] .pagination > li > span {
+  border-color: acento1;
+}
+
+[data-luma="oscuro"] .pagination > li > a,
+[data-luma="oscuro"] .pagination > li > span {
+  color: claro;
+}
+[data-accent="2"] .pagination > li > a,
+[data-accent="2"] .pagination > li > span {
+  border-color: acento2;
+}
+/*
+[data-accent="1"] .pagination > li > a:hover,
+[data-accent="1"] .pagination > li > span:hover,*/
+[data-accent="1"] .pagination > li > a:focus,
+[data-accent="1"] .pagination > li > span:focus {
+  color: textForBackA1;
+
+}
+
+[data-accent="2"] .pagination > li > a:hover,
+[data-accent="2"] .pagination > li > span:hover,
+[data-accent="2"] .pagination > li > a:focus,
+[data-accent="2"] .pagination > li > span:focus {
+  color: textForBackA2;
+}
+
+[data-accent="1"] .pagination > .active > a,
+[data-accent="1"] .pagination > .active > span,
+[data-accent="1"] .pagination > .active > a:hover,
+[data-accent="1"] .pagination > .active > span:hover,
+[data-accent="1"] .pagination > .active > a:focus,
+[data-accent="1"] .pagination > .active > span:focus {
+  color: textForBackA1!important;
+  background-color: acento1;/* color del fondo*/
+  border-color: acento1;
+}
+
+[data-accent="2"] .pagination > .active > a,
+[data-accent="2"] .pagination > .active > span,
+[data-accent="2"] .pagination > .active > a:hover,
+[data-accent="2"] .pagination > .active > span:hover,
+[data-accent="2"] .pagination > .active > a:focus,
+[data-accent="2"] .pagination > .active > span:focus {
+  color: textForBackA2!important;
+  background-color: acento2;/* color del fondo*/
+  border-color: acento2;
+}
+
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #777777;/* color del link */
+  border-color: #dddddd;
+}
+
+.pager li > a,
+.pager li > span {
+  border-color:#dddddd;
+}
+.pager li > a:hover,
+.pager li > a:focus {
+
+}
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #777777;
+}

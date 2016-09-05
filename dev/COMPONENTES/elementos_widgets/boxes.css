@@ -1,0 +1,136 @@
+/*------------------------------------*\
+    $Boxes.css
+\*------------------------------------*/
+
+.LayoutMediaBox-media,
+.LayoutStaffBox-media{
+  margin-bottom:1em;
+  z-index:2;
+}
+.LayoutMediaBox-item{
+  margin-bottom: 1em;
+}
+
+/*Media box vertical*/
+[data-cod_plantilla="1"].LayoutMediaBox .colSe{
+  width:100%;
+}
+
+
+
+
+.LayoutTestimonio .LayoutMediaBox-item{
+  max-width: 700px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.LayoutTestimonio .LayoutMediaBox-content{
+  position:relative;
+  padding-top:1em;
+  font-style:italic;
+}
+.LayoutTestimonio .LayoutMediaBox-content:before{
+  content: "";
+  width: 55px;
+  height: 40px;
+  display: block;
+  background-image: url("http://replace.com/quote_open.png");
+  position: absolute;
+  left: -0px;
+  top: 0px;
+  opacity: 0.7;
+}
+
+@media all and (min-width:50.000em){
+  .LayoutMediaBoxLeft .LayoutMediaBox-item,
+  .LayoutMediaBoxRight .LayoutMediaBox-item{
+    display: table;
+    display: flex;
+    flex-direction:row;
+    align-items:top;
+  }
+
+  .LayoutMediaBoxRight .LayoutStaffBox-item,
+  .LayoutMediaBoxRight .LayoutMediaBox-item{
+    flex-direction: row-reverse;
+  }
+
+  .LayoutMediaBoxLeft .LayoutMediaBox-media,
+  .LayoutMediaBoxRight .LayoutMediaBox-media{
+    max-width: 30%;
+    flex-shrink:0;
+  }
+
+  .LayoutMediaBoxLeft .LayoutStaffBox-media,
+  .LayoutMediaBoxLeft .LayoutMediaBox-media{
+    margin-right:0.9375em;
+  }
+  
+  .LayoutMediaBoxLeft .LayoutMediaBox-content,
+  .LayoutMediaBoxRight .LayoutMediaBox-content{
+    flex-grow:grow;
+  }
+  .LayoutMediaBoxLeft .LayoutStaffBox-media,
+  .LayoutMediaBoxLeft .LayoutMediaBox-media{
+    margin-right:0.9375em;
+  }
+  .LayoutMediaBoxRight .LayoutStaffBox-media,
+  .LayoutMediaBoxRight .LayoutMediaBox-media{
+    margin-left:0.9375em;
+  }
+  .LayoutTestimonio .LayoutMediaBox-content:before{
+    left: -30px;
+  }
+  .LayoutMediaBoxLeft.LayoutTestimonio .LayoutMediaBox-content:before {
+    left: -12px;
+  }
+
+/*
+  .no-flexbox .LayoutMediaBoxLeft .LayoutMediaBox-media,
+  .no-flexbox .LayoutMediaBoxLeft .LayoutMediaBox-content,
+  .no-flexbox .LayoutMediaBoxRight .LayoutMediaBox-media,
+  .no-flexbox .LayoutMediaBoxRight .LayoutMediaBox-content{
+    display:table-cell;
+  }*/
+  .no-flexbox .LayoutMediaBoxLeft .LayoutMediaBox-item, 
+  .no-flexbox .LayoutMediaBoxRight .LayoutMediaBox-item {
+    display: block;
+  }
+
+  .no-flexbox .LayoutMediaBox-item:before, .no-flexbox .LayoutMediaBox-item:after {
+    content: " ";
+    display: table; }
+  .no-flexbox .LayoutMediaBox-item:after {
+    clear: both; }
+
+
+  .no-flexbox .LayoutMediaBoxLeft .LayoutMediaBox-content {
+    width:70%;
+    float:left;
+  }
+  .no-flexbox .LayoutMediaBoxRight .LayoutMediaBox-content{
+    float:left;
+    width:70%;
+  }
+
+  .no-flexbox .LayoutMediaBoxLeft .LayoutMediaBox-media{
+    padding-right:0.9375em;
+    margin-right:0;
+    float:left;
+    box-sizing:border-box;
+  }
+  .no-flexbox .LayoutMediaBoxRight .LayoutMediaBox-media{
+    padding-left:0.9375em;
+    margin-left: 0;
+    float:right;
+    box-sizing:border-box;
+  }
+
+  
+
+
+
+
+
+}
